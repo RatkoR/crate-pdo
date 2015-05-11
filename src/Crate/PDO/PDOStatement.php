@@ -20,6 +20,7 @@
  * software solely pursuant to the terms of the relevant commercial agreement.
  */
 
+
 namespace Crate\PDO;
 
 use ArrayIterator;
