@@ -224,7 +224,7 @@ class PDOStatement extends BasePDOStatement implements IteratorAggregate
     /**
      * Returns PDO::PARAM_* type based on parameter value.
      */
-    protected function guessDataType($parameter, $value) 
+    protected function guessDataType($parameter, $value)
     {
         switch (gettype($value)) {
             case 'array':
